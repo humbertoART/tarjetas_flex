@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>flex-box</title>
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=DynaPuff:wght@400..700&family=Permanent+Marker&family=Rubik+Vinyl&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <header>
-        <h1>Ejemplos flex-box</h1>
-    </header>
-    <main>
-        <section id="caja1">
-            <img src="img/jurassic.png" alt="imagen de jurassic" id="imagen">
-            <p id="parrafo">
-                Jurassic World es una película de ciencia ficción de 2015, la cuarta de la saga Jurassic Park.<br/>
-                Fue dirigida por Colin Trevorrow. <br/>
-                Originalmente se indicó el 13 de junio de 2014 como fecha de estreno,
-                aunque finalmente fue el 12 de junio de 2015. <br/>
-                Su guion corrió a cargo de Rick Jaffa, Amanda Silver,
-                Derek Connolly, y Trevorrow. <br/>
-                Steven Spielberg, director de las dos primeras entregas, se desempeña como
-                productor ejecutivo.
-            </p>
-            <a 
-                href="https://jurassicpark.fandom.com/es/wiki/Jurassic_World" 
-                id="enlace"
-                target="_blank"
-            >
-                <button>Conocen mas</button>   
-            </a>
-        </section>
-    </main>
-</body>
+  <body>
+      <h2>JUSTIFY CONTENT = SPACE BETWEEN EJE MAIN (FILAS)</h2>
+      <section id="caja1">
+        <div class="item1 items">1</div>
+        <div class="item2 items">2</div>
+        <div class="item3 items">3</div>
+        <div class="item4 items">4</div>
+        <div class="item5 items">5</div>
+        <div class="item6 items">6</div>
+        <div class="item7 items">7</div>
+      </section>
+      
+      <h2>JUSTIFY CONTENT = SPACE AROUND EJE MAIN (FILAS)</h2>
+      <section id="caja2">
+        <div class="item1 items">1</div>
+        <div class="item2 items">2</div>
+        <div class="item3 items">3</div>
+        <div class="item4 items">4</div>
+        <div class="item5 items">5</div>
+        <div class="item6 items">6</div>
+        <div class="item7 items">7</div>
+      </section>
 
+      <h2>JUSTIFY CONTENT = SPACE EVENLY EJE MAIN (FILAS)</h2>
+      <section id="caja3">
+        <div class="item1 items">1</div>
+        <div class="item2 items">2</div>
+        <div class="item3 items">3</div>
+        <div class="item4 items">4</div>
+        <div class="item5 items">5</div>
+        <div class="item6 items">6</div>
+        <div class="item7 items">7</div>
+      </section>
+
+      <h2>ALIGN ITEMS = CENTER EJE AXIS (FILAS)</h2>
+      <section id="caja4">
+        <div class="item1 items">1</div>
+        <div class="item2 items">2</div>
+        <div class="item3 items">3</div>
+        <div class="item4 items">4</div>
+        <div class="item5 items">5</div>
+        <div class="item6 items">6</div>
+        <div class="item7 items">7</div>
+      </section>
+
+      <h2>ALIGN ITEMS = END EJE AXIS (FILAS)</h2>
+      <section id="caja5">
+        <div class="item1 items">1</div>
+        <div class="item2 items">2</div>
+        <div class="item3 items">3</div>
+        <div class="item4 items">4</div>
+        <div class="item5 items">5</div>
+        <div class="item6 items">6</div>
+        <div class="item7 items">7</div>
+      </section>
+
+      <h2>ALIGN ITEMS = START EJE AXIS (FILAS)</h2>
+      <section id="caja6">
+        <div class="item1 items">1</div>
+        <div class="item2 items">2</div>
+        <div class="item3 items">3</div>
+        <div class="item4 items">4</div>
+        <div class="item5 items">5</div>
+        <div class="item6 items">6</div>
+        <div class="item7 items">7</div>
+      </section>
+
+      <h2>ALIGN ITEMS JUSTIFY CONTENT EJE MAIN AXIS (COLUMNAS)</h2>
+      <section id="caja7">
+        <div class="item1 items">1</div>
+        <div class="item2 items">2</div>
+        <div class="item3 items">3</div>
+        <div class="item4 items">4</div>
+        <div class="item5 items">5</div>
+        <div class="item6 items">6</div>
+        <div class="item7 items">7</div>
+      </section>
+  </body>
 </html>

@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#caja1 {
+/* #caja1 {
     background-image: url(../img/dino.png);
     width: 500px;
     height: 700px;
@@ -15,4 +15,97 @@
 
 #imagen {
     width: 350px;
+} */
+
+.items {
+    width: 300px;
+    height: 300px;
+    border: solid 2px rgb(145, 92, 92);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 40px;    
+    font-weight: 600;
+    font-family: "Permanent Marker", cursive;
+    font-style: normal;
+}
+
+.item1 {
+    background-color: aquamarine;
+}
+
+.item2 {
+    background-color: bisque;
+}
+
+.item3 {
+    background-color: rgb(104, 158, 104);
+}
+
+.item4 {
+    background-color: rgb(151, 108, 190);
+}
+
+.item5 {
+    background-color: coral;
+}
+
+.item6 {
+    background-color: gold;
+}
+
+.item7 {
+    background-color: darkslategray;
+}
+
+#caja1 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;         
+}
+
+#caja2 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;  
+    height: 800px;       
+}
+
+#caja3 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;  
+    height: 800px;       
+}
+
+#caja4 {
+    display: flex;
+    height: 600PX;
+    border: 5px red solid;
+    align-items: center;
+}    
+
+#caja5 {
+    display: flex;
+    height: 600PX;
+    border: 5px orange solid;
+    align-items: end;
+}   
+
+#caja6 {
+    display: flex;
+    height: 600PX;
+    border: 5px blue solid;
+    align-items: start;
+}   
+
+#caja7 {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    flex-wrap: wrap;
+    /*main: arriba a abajo*/
+    align-items: center; /*axis*/
+    border: 5px green solid;
+    justify-content: space-around;
 }
